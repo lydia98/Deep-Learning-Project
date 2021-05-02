@@ -31,3 +31,17 @@ The second one is the cleaned tweet sentences. We exclude special characters, '@
 
 - train_df_clean.csv
 - dev_df_clean.csv
+
+------------------------------------------------------------
+Command to run the deep models:
+```
+cd /scritpts
+sh sentiment_train_predict.sh
+```
+
+There are three different tasks in 'sentiment_train_predict.sh'
+1. run training and prediction on V-oc dataset
+2. run training on V-oc and EI-oc dataset and predict on V-oc dataset with only one head of sequence classification
+3. run training on  V-oc and EI-oc dataset and predict on V-oc dataset with two different heads of sequence classification
+
+To run different task, just uncomment the scripts of the corresponding task!
