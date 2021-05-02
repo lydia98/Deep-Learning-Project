@@ -35,7 +35,7 @@ The second one is the cleaned tweet sentences. We exclude special characters, '@
 ------------------------------------------------------------
 Command to run the deep models:
 ```
-cd /scritpts
+cd scripts
 sh sentiment_train_predict.sh
 ```
 
